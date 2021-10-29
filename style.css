@@ -1,11 +1,11 @@
 header {
     text-align: center;
-    border-bottom: 2px solid #ffa500;
+    border-bottom: 2px solid #e9ab39;
     background-color: rgba(230, 230, 230, 0.7);
 }
 
 body{
-    width: 710px;
+    width: 720px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -16,7 +16,7 @@ footer {
 }
 
 main {
-    border-bottom: 1px solid #ffa500;
+    border-bottom: 1px solid #e9ab39;
 }
 
 section {
@@ -24,7 +24,7 @@ section {
 }
 
 h2 {
-    color: #ffa500;
+    color: #e9ab39;
 }
 
 img {
