@@ -1,14 +1,14 @@
 header {
     text-align: center;
-    align-items: center;
     border-bottom: 2px solid;
-    border-color: orangered;
-    background-color: lightgrey;
+    border-color: #ffa500;
+    background-color: rgb(230, 230, 230);
 }
 
 body{
-    width: 900px;
-    margin-left: 20%;
+    width: auto;
+    margin-left: 26%;
+    margin-right: 26%;
 }
 
 img {
@@ -20,6 +20,14 @@ img {
 
 footer {
     text-align: center;
-    align-items: center;
     font-size: smaller; 
+}
+
+main {
+    border-bottom: 1px solid;
+    border-color: #ffa500;
+}
+
+h2 {
+    color: #ffa500;
 }
