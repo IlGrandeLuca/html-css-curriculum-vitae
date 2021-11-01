@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween party</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- align -->
+    <header>
+        <h1>Halloween party</h1>
+    </header>
+
+    <!-- border-bottom resize by css -->
+    <main>
+        <section>
+            <h2>La festa più spaventosa dell'anno!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <section>
+            <form action="127.0.0.1" method="get">
+                <!-- nome e cognome -->
+                <label for="fname">Nome</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Cognome</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+
+                <!-- email -->
+                <label for="mail">Email</label><br>
+                <input type="email" id="mail" name="mail" required><br>
+
+                <!-- orario -->
+                <label for="arrival">Ora di arrivo</label><br>
+                <input type="time" id="arrival" name="arrival" required><br>
+
+                <!-- numero di amici -->
+                <label for="nfriends">Numero di amici</label><br>
+                <input type="number" id="nfriends" name="nfriends"><br>
+
+                <!-- scelta multipla -->
+                <label for="multiplec">Come ci hai trovato?</label><br>
+                <select name="choice" id="multiplec">
+                    <option value="opt1">Google</option>
+                    <option value="opt2">Facebook</option>
+                    <option value="opt3">Altro</option>
+                </select><br>
+
+                <!-- textarea -->
+                <label for="costume">Che costume indossi?</label><br>
+                <textarea name="costumetype" id="costume" rows="8" cols="80">Inserire testo...</textarea><br>
+
+                <!-- checkbox -->
+                <label for="conditions">Accetta le condizioni</label>
+                <input type="checkbox" name="checkboxc" id="conditions" value="sent"><br>
+
+                <!-- button -->
+                <input type="submit" value="submit"><br>
+            </form>
+        </section>
+    </main>
+
+    <!-- resize by css -->
+    <footer>
+        <p>Made with &hearts; by Me</p>
+    </footer>
+</body>
+</html>
