@@ -1,7 +1,6 @@
 header {
     text-align: center;
-    border-bottom: 2px solid #e9ab39;
-    background-color: rgba(230, 230, 230, 0.7);
+    color: #e9ab39;
 }
 
 body{
@@ -9,16 +8,18 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-image: url('img/halloween-scaled.jpg');
 }
 
 footer {
     text-align: center;
     font-size: smaller; 
+    color: rgb(235, 59, 59);
 }
 
-main {
+/*main {
     border-bottom: 1px solid #e9ab39;
-}
+}*/
 
 section {
     margin-left: 2%;
@@ -28,11 +29,20 @@ h2 {
     color: #e9ab39;
 }
 
-img {
+/*img {
     width: 215px;
-}
+}*/
 
-form {
+.fborder1 {
     border: 2px solid #e9ab39;
     background-color: rgba(230, 230, 230, 0.7);
+}
+
+.fborder2 {
+    border-top: 2px solid #e9ab39;
+    color: rgb(187, 3, 3);
+}
+
+h1 {
+    margin-left: 2%;
 }
