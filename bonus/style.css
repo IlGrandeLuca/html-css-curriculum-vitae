@@ -15,11 +15,12 @@ footer {
     text-align: center;
     font-size: smaller; 
     color: rgb(235, 59, 59);
+    margin-left: 2%;
 }
 
-/*main {
+/* main {
     border-bottom: 1px solid #e9ab39;
-}*/
+} */
 
 section {
     margin-left: 2%;
@@ -29,13 +30,14 @@ h2 {
     color: #e9ab39;
 }
 
-/*img {
+/* img {
     width: 215px;
-}*/
+} */
 
 .fborder1 {
     border: 2px solid #e9ab39;
     background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 40px;
 }
 
 .fborder2 {
@@ -45,4 +47,8 @@ h2 {
 
 h1 {
     margin-left: 2%;
+}
+
+form {
+    padding: 8px;
 }
